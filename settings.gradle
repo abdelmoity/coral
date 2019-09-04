@@ -1,0 +1,3 @@
+rootProject.name = 'coral-customers'
+include 'coral-model', 'contact-ws'
+

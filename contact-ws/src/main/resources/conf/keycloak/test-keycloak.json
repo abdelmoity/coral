@@ -1,0 +1,26 @@
+{
+  "realm": "test",
+  "bearer-only": true,
+  "enable-cors": true,
+  "auth-server-url": "https://keycloak.tech4health.io/auth",
+  "ssl-required": "none",
+  "resource": "t4h-ms",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "16af3a3b-fc5c-4659-9e4e-6a11ba92a6be"
+  },
+  "confidential-port": 0,
+  "policy-enforcer": {
+    "enforcement-mode": "ENFORCING",
+    "paths": [
+      {
+        "path": "/api/internal/*",
+        "enforcement-mode": "ENFORCING"
+      },
+      {
+        "path" : "/api/v1/emails/*",
+        "enforcement-mode": "DISABLED"
+      }
+    ]
+  }
+}
