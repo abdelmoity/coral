@@ -11,6 +11,11 @@ import javax.persistence.*
 @Table(name = "INDIVIDUAL_CONTACT" ,
     indexes = [Index(name = "name_index", columnList = "FIRST_NAME,LAST_NAME,DOB" , unique = true)])
 @DiscriminatorValue(ContactConstants.INDIVIDUAL_CONTACT_TYPE)
+@NamedQueries(
+      NamedQuery(name = "Individual.findAll", query = "SELECT c FROM Individual c")
+    , NamedQuery(name = "Individual.findById", query = "SELECT c FROM Individual c WHERE c.id = :id")
+    , NamedQuery(name = "Individual.findByName", query = "SELECT c FROM Individual c WHERE c.name = :name")
+)
 open class Individual : Contact() {
 
     /**

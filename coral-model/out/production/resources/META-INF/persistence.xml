@@ -14,7 +14,7 @@
         <class>io.coral.contacts.model.domain.ParticipantInfo</class>
         <class>io.coral.contacts.model.domain.TPAInfo</class>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://172.17.0.3:3306/coral"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://172.17.0.2:3306/coral"/>
             <property name="javax.persistence.jdbc.user" value="coral_contacts"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.password" value="coral_contacts"/>

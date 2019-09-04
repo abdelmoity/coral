@@ -101,9 +101,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -140,6 +142,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="io.coral.contacts.model.repository" />
+      <recent name="io.coral.contacts.model.repository.impl" />
       <recent name="io.coral.contacts.model.search" />
       <recent name="io.coral.contacts.model.enums" />
       <recent name="io.coral.contacts.model.dto" />
@@ -465,13 +469,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.19" />
-      <item itemvalue="TomEE Server.TomEE jersy" />
-      <item itemvalue="Kotlin.io.coral.contacts.model.test.LocationTest" />
       <item itemvalue="Gradle.coral-customers [clean]" />
       <item itemvalue="Gradle.coral-customers [build]" />
       <item itemvalue="Gradle.coral-customers:coral-model [clean]" />
       <item itemvalue="Gradle.coral-customers:coral-model [build]" />
+      <item itemvalue="Kotlin.io.coral.contacts.model.test.LocationTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.19" />
+      <item itemvalue="TomEE Server.TomEE jersy" />
     </list>
     <recent_temporary>
       <list>
@@ -523,7 +527,8 @@
       <workItem from="1567510520584" duration="2262000" />
       <workItem from="1567512810793" duration="2260000" />
       <workItem from="1567515083598" duration="30063000" />
-      <workItem from="1567598308809" duration="11220000" />
+      <workItem from="1567598308809" duration="14363000" />
+      <workItem from="1567632409402" duration="3924000" />
     </task>
     <servers />
   </component>
@@ -550,13 +555,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt</url>
-          <line>23</line>
+          <line>25</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt</url>
-          <line>26</line>
+          <line>28</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
