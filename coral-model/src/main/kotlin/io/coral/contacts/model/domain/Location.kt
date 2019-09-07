@@ -1,6 +1,7 @@
 package io.coral.contacts.model.domain
 
 
+import io.tech4health.ts.model.domain.AbstractBasicDefinition
 import javax.persistence.*
 
 

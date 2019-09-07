@@ -1,5 +1,6 @@
 package io.coral.contacts.model.domain
 
+import io.tech4health.ts.model.domain.AbstractBasicDefinition
 import javax.persistence.*
 
 @Entity
@@ -33,27 +34,27 @@ open class Contact : AbstractBasicDefinition() {
     /**
      * provider related information
      */
-    @OneToOne
+    @OneToOne(cascade = [CascadeType.ALL])
     @JoinColumn( name = "coralProviderId" , unique = true )
     var providerInfo: HealthcareProviderInfo? = null
 
 
-    @OneToOne
+    @OneToOne(cascade = [CascadeType.ALL])
     @JoinColumn( name = "coralTPAId" , unique = true )
     var tpaInfo: TPAInfo? = null
 
-    @OneToOne
+    @OneToOne(cascade = [CascadeType.ALL])
     @JoinColumn(unique = true , name = "coralParticipantId")
     var participantInfo: ParticipantInfo? = null
 
     @Column(name = "active" )
     var active: Boolean? = true
 
-    @OneToMany(mappedBy = "contact" , cascade = [CascadeType.ALL], orphanRemoval = true)
-    var locations: MutableList<Location>? = mutableListOf<Location>()
+    @OneToMany(mappedBy = "contact" , cascade = [CascadeType.ALL])
+    var locations: MutableList<Location> = mutableListOf<Location>()
 
 
-    @OneToOne
+    @OneToOne(cascade = [CascadeType.ALL])
     @JoinColumn( name = "PRIMARY_LOCATION" )
     var primaryLocation: Location? = null
 

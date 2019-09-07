@@ -101,11 +101,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
-        <option value="Kotlin Interface" />
-        <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -528,7 +529,7 @@
       <workItem from="1567512810793" duration="2260000" />
       <workItem from="1567515083598" duration="30063000" />
       <workItem from="1567598308809" duration="14363000" />
-      <workItem from="1567632409402" duration="3924000" />
+      <workItem from="1567632409402" duration="52253000" />
     </task>
     <servers />
   </component>
@@ -555,20 +556,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt</url>
-          <line>25</line>
-          <option name="timeStamp" value="16" />
+          <line>80</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/EMF.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt</url>
-          <line>28</line>
-          <option name="timeStamp" value="17" />
+          <line>122</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="18" />
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt</url>
+          <line>129</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt</url>
+          <line>133</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt</url>
+          <line>147</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/coral_customers$io_coral_contacts_model_test_LocationTest.ic" NAME="io.coral.contacts.model.test.LocationTest Coverage Results" MODIFIED="1567720136988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

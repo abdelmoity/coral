@@ -31,7 +31,7 @@ open class Address {
      * the address's state
      */
     @Enumerated(EnumType.STRING)
-    @Column(name = "STATE")
+    @Column(name = "STATE" , nullable = false)
     var state: StateEnum? = null
 
 }

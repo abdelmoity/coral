@@ -1,4 +1,4 @@
 package io.coral.contacts.model.repository
 
-interface IndividualRepository:BasicRepository {
+interface IndividualRepository:ContactRepository {
 }
