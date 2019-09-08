@@ -5,6 +5,7 @@ import io.coral.contacts.model.domain.Location
 import io.coral.contacts.model.domain.TPAInfo
 import io.coral.contacts.model.dto.LocationDto
 import io.coral.contacts.model.dto.OrganizationDto
+import io.coral.contacts.model.dto.TPAInfoDto
 import io.coral.contacts.model.enums.NameSuffixeEnum
 import io.coral.contacts.model.enums.SexEnum
 import io.coral.contacts.model.enums.StateEnum
@@ -22,12 +23,12 @@ object LocationTest {
        try {
            //addLocation()
            //addTpaInfo()
-          // addIndividual()
+           addIndividual()
            //getAll()
            //deleteContact()
           // testData()
            //getById()
-           testUpdate()
+           //testUpdate()
        }catch (ex:Exception){
            ex.printStackTrace()
        }
@@ -133,6 +134,10 @@ object LocationTest {
     fun testUpdate(){
         val orgRepo:OrganizationRepository=OrganizationRepositoryImpl()
         val result = orgRepo.getById(601)
+        val tpa:TPAInfoDto= TPAInfoDto()
+        tpa.id=5
+        result.tpaInfo=tpa
+        result.tpa=false
         val location3:LocationDto= LocationDto()
         location3.address!!.city = "yyyyyy"
         location3.phone1 = "8999"
@@ -140,9 +145,10 @@ object LocationTest {
         location3.address!!.state=StateEnum.OK
         location3.taxId="55"
         location3.phone2="987654"
-        location3.name="location3"
-        result.primaryLocation=result.locations[2]
-
+        location3.name="location6"
+        result.locations.add(location3)
+        result.primaryLocation=location3
+        result.locations.clear()
         //result.locations.add(location3)
         val result2= orgRepo.update(result)
         println(result2)

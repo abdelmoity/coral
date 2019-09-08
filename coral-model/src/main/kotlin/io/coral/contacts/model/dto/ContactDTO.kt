@@ -1,5 +1,4 @@
 package io.coral.contacts.model.dto
-import io.coral.contacts.model.domain.Location
 import java.io.Serializable
 open class ContactDTO :Serializable{
 
@@ -24,7 +23,7 @@ open class ContactDTO :Serializable{
     var coralParticipantId: Int? = null
     var active: Boolean? = null
     var locations: MutableList<LocationDto> = mutableListOf<LocationDto>()
-    var tpaInfo: TpaInfoDto? = null
+    var tpaInfo: TPAInfoDto? = null
     var participantInfo: ParticipantInfoDto? = null
     var providerInfo: HealthCareProviderInfoDto? = null
 

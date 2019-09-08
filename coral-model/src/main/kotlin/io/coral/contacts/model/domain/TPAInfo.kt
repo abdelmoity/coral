@@ -14,7 +14,7 @@ open class TPAInfo : AbstractEntity() {
     var id: Int? = null
 
     @OneToOne(mappedBy = "tpaInfo")
-    private val contact: Contact? = null
+     var contact: Contact? = null
 
 
 }
