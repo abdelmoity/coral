@@ -14,13 +14,13 @@ open class Contact : AbstractBasicDefinition() {
     var contactType: String? = null
 
     @Column(name = "TPA")
-    var TPA: Boolean? = false
+    var TPA: Boolean = false
 
     @Column(name = "PROVIDER")
-    var provider: Boolean? = false
+    var provider: Boolean = false
 
     @Column(name = "PARTICIPANT")
-    var participant: Boolean? = false
+    var participant: Boolean = false
 
     @Column(name = "defaultTaxId")
     var defaultTaxId: String? = null

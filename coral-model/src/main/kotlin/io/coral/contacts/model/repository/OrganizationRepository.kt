@@ -1,6 +1,5 @@
 package io.coral.contacts.model.repository
 
-import io.coral.contacts.model.domain.Organization
 import io.coral.contacts.model.dto.OrganizationDto
 
 interface OrganizationRepository :ContactRepository{

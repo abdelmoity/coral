@@ -1,7 +1,5 @@
 package io.coral.contacts.model.search
 
-import io.coral.contacts.model.enums.OperationTypeEnum
-
 class FilterFieldCriteria {
 
     /**

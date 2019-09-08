@@ -1,13 +1,12 @@
 package io.coral.contacts.model.repository.impl
 
-import io.coral.contacts.model.domain.Contact
 import io.coral.contacts.model.domain.Organization
+import io.coral.contacts.model.domain.TPAInfo
 import io.coral.contacts.model.dto.OrganizationDto
 import io.coral.contacts.model.exception.ContactsDefaultException
 import io.coral.contacts.model.exception.ObjectNotFoundException
 import io.coral.contacts.model.mapper.BasicModelMapper
 import io.coral.contacts.model.repository.OrganizationRepository
-import io.tech4health.ts.model.domain.AbstractEntity
 import java.util.stream.Collectors
 import javax.persistence.EntityManager
 
@@ -16,6 +15,9 @@ class OrganizationRepositoryImpl : OrganizationRepository, ContactRepositoryImpl
     override fun add(dto: OrganizationDto): OrganizationDto {
         try {
             var organization: Organization = BasicModelMapper.convertTo(dto, Organization()) as Organization
+            if(organization.TPA){
+             organization.tpaInfo= TPAInfo()
+            }
             updateOrganizationRelationData(organization)
             organization = doAdd(organization) as Organization
             return BasicModelMapper.convertTo(organization, OrganizationDto()) as OrganizationDto
