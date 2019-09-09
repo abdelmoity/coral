@@ -1,5 +1,6 @@
 package io.coral.contacts.model.domain
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import io.tech4health.ts.model.domain.AbstractBasicDefinition
 import javax.persistence.*
 
@@ -11,6 +12,7 @@ import javax.persistence.*
 open class Contact : AbstractBasicDefinition() {
 
     @Column(name = "CONTACT_TYPE", insertable = false, updatable = false)
+    @JsonIgnore
     var contactType: String? = null
 
     @Column(name = "TPA")

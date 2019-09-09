@@ -2,11 +2,9 @@ package io.coral.contacts.ws.config
 
 import com.google.inject.Guice
 import com.google.inject.Injector
-import io.swagger.jaxrs.listing.ApiListingResource
-import io.swagger.jaxrs.listing.SwaggerSerializers
+
 import io.tech4health.ts.exception.T4HBaseException
 import io.tech4health.ts.exception.T4HError
-import io.tech4health.ts.exception.mapper.EjbExceptionMapper
 import io.tech4health.ts.exception.mapper.GenericExceptionMapper
 import io.tech4health.ts.exception.mapper.NotFoundExceptionMapper
 import io.tech4health.ts.exception.mapper.T4HBaseExceptionMapper
@@ -32,11 +30,11 @@ class PublicConfig() : ResourceConfig() {
             T4HBaseExceptionMapper::class.java,
             NotFoundExceptionMapper::class.java,
             T4HError::class.java,
-            T4HBaseException::class.java,
-            EjbExceptionMapper::class.java
+            T4HBaseException::class.java
+            //,EjbExceptionMapper::class.java
         )
-        register(ApiListingResource::class.java)
-        register(SwaggerSerializers::class.java)
+//        register(ApiListingResource::class.java)
+//        register(SwaggerSerializers::class.java)
         register(AuthFilter::class.java)
         val injector = Guice.createInjector(GuiceModule())
         initGuiceIntoHK2Bridge(serviceLocator, injector)

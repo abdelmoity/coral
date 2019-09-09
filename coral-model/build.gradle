@@ -31,6 +31,7 @@ dependencies {
     compile "org.modelmapper:modelmapper:${modelMapperVersion}"
     compile "commons-httpclient:commons-httpclient:${apacheClientVersion}"
     compile group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.9'
 
 }
 

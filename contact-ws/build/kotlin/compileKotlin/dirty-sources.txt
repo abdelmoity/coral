@@ -1,6 +1,0 @@
-/home/abdelmoity/Tech4Health/code/coral-customers/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/ContactResource.kt
-/home/abdelmoity/Tech4Health/code/coral-customers/contact-ws/src/main/kotlin/io/coral/contacts/ws/config/AuthFilter.kt
-/home/abdelmoity/Tech4Health/code/coral-customers/contact-ws/src/main/kotlin/io/coral/contacts/ws/config/GuiceModule.kt
-/home/abdelmoity/Tech4Health/code/coral-customers/contact-ws/src/main/kotlin/io/coral/contacts/ws/config/DefaultConfig.kt
-/home/abdelmoity/Tech4Health/code/coral-customers/contact-ws/src/main/kotlin/io/coral/contacts/ws/config/PublicConfig.kt
-/home/abdelmoity/Tech4Health/code/coral-customers/contact-ws/src/main/kotlin/io/coral/contacts/ws/model/common/response/ContactResponse.kt

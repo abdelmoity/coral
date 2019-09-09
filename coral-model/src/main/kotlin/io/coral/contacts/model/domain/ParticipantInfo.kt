@@ -1,6 +1,7 @@
 package io.coral.contacts.model.domain
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import io.tech4health.ts.model.domain.AbstractEntity
 import javax.persistence.*
 
@@ -17,6 +18,7 @@ open class ParticipantInfo : AbstractEntity() {
     var employer: String? = null
 
     @OneToOne(mappedBy = "participantInfo")
+    @JsonIgnore
     var contact: Contact? = null
 
 }

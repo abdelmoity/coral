@@ -2,34 +2,33 @@ package io.coral.contacts.model.repository.impl
 
 import io.coral.contacts.model.domain.Organization
 import io.coral.contacts.model.domain.TPAInfo
-import io.coral.contacts.model.dto.OrganizationDto
 import io.coral.contacts.model.exception.ContactsDefaultException
 import io.coral.contacts.model.exception.ObjectNotFoundException
 import io.coral.contacts.model.mapper.BasicModelMapper
+import io.coral.contacts.model.mapper.ContactModelMapper
 import io.coral.contacts.model.repository.OrganizationRepository
 import java.util.stream.Collectors
 import javax.persistence.EntityManager
 
 class OrganizationRepositoryImpl : OrganizationRepository, ContactRepositoryImpl() {
 
-    override fun add(dto: OrganizationDto): OrganizationDto {
+    override fun add(organization: Organization): Organization {
         try {
-            var organization: Organization = BasicModelMapper.convertTo(dto, Organization()) as Organization
-            if(organization.TPA){
-             organization.tpaInfo= TPAInfo()
+            if (organization.TPA) {
+                organization.tpaInfo = TPAInfo()
             }
-            updateOrganizationRelationData(organization)
-            organization = doAdd(organization) as Organization
-            return BasicModelMapper.convertTo(organization, OrganizationDto()) as OrganizationDto
-        }catch (ex:Exception){
+            ContactModelMapper().updateEntity(organization)
+            return doAdd(organization) as Organization
+        } catch (ex: Exception) {
             throw ContactsDefaultException(ex)
         }
     }
 
-    override fun getById(id: Int): OrganizationDto {
+
+
+    override fun getById(id: Int): Organization {
         try {
-            val entity = entityManager.find(Organization::class.java, id) ?:throw ObjectNotFoundException()
-            return BasicModelMapper.convertTo(entity, OrganizationDto()) as OrganizationDto
+            return entityManager.find(Organization::class.java, id) ?:throw ObjectNotFoundException()
         } catch (ex: Exception) {
             throw ContactsDefaultException(ex)
         } finally {
@@ -37,25 +36,26 @@ class OrganizationRepositoryImpl : OrganizationRepository, ContactRepositoryImpl
         }
     }
 
-    override fun update(dto:OrganizationDto):OrganizationDto{
+    override fun update(organization:Organization):Organization{
         var em: EntityManager? = null
         try {
-            em=entityManager
+            em = entityManager
             em.transaction.begin()
-            var organization=em.find(Organization::class.java,dto.id) ?: throw ObjectNotFoundException()
+            var organizationEntity = em.find(Organization::class.java, organization.id) ?: throw ObjectNotFoundException()
             // Start remove un used locations
-            val allLocationsDtoId: MutableList<Int> = dto.locations.stream().filter { it.id != null }.map { it.id }.collect(Collectors.toList())
-            organization.locations.forEach {
+            val allLocationsDtoId: MutableList<Int> =
+                organization.locations.stream().filter { it.id != null }.map { it.id }.collect(Collectors.toList())
+            organizationEntity.locations.forEach {
                 if (!allLocationsDtoId.contains(it.id)) {
                     em.remove(it)
                 }
             }
             // end remove un used locations
-            organization = BasicModelMapper.convertTo(dto,Organization()) as Organization
-            updateOrganizationRelationData(organization)
-            em.merge(organization)
+            organizationEntity = BasicModelMapper.convertTo(organization, Organization()) as Organization
+            ContactModelMapper().updateEntity(organizationEntity)
+            em.merge(organizationEntity)
             em.transaction.commit()
-            return BasicModelMapper.convertTo(organization, OrganizationDto()) as OrganizationDto
+            return em.find(Organization::class.java, organization.id)
         } catch (ex: Exception) {
             throw ContactsDefaultException(ex)
         } finally {
@@ -64,18 +64,7 @@ class OrganizationRepositoryImpl : OrganizationRepository, ContactRepositoryImpl
 
     }
 
-    private fun updateOrganizationRelationData(organization:Organization){
-        organization.locations.forEach { it.contact = organization }
-        if(organization.tpaInfo!=null){
-            organization.tpaInfo!!.contact=organization
-        }
-        if(organization.providerInfo!=null){
-            organization.providerInfo!!.contact=organization
-        }
-        if(organization.primaryLocation!=null){
-            organization.primaryLocation!!.contact=organization
-        }
-    }
+
 
 
 }

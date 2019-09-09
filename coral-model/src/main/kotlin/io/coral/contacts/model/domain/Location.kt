@@ -1,6 +1,7 @@
 package io.coral.contacts.model.domain
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore
 import io.tech4health.ts.model.domain.AbstractBasicDefinition
 import javax.persistence.*
 
@@ -41,6 +42,7 @@ open class Location : AbstractBasicDefinition() {
 
     @ManyToOne
     @JoinColumn(name = "CONTACT_ID")
+    @JsonIgnore
     var contact: Contact? = null
 
 

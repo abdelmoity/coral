@@ -12,16 +12,12 @@ open class BasicRepositoryImpl : BasicRepository {
     val entityManager: EntityManager
         get() = EMF.getEMF()!!.createEntityManager()
 
-
-
-
     override fun doAdd(entity: AbstractEntity): AbstractEntity {
         var em: EntityManager? = null
         try {
             em = entityManager
             em.transaction.begin()
             em.persist(entity)
-            em.flush()
             em.transaction.commit()
             return entity
         } catch (ex: Exception) {
