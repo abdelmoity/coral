@@ -40,9 +40,9 @@ open class ContactRepositoryImpl:ContactRepository,BasicRepositoryImpl() {
       }
     }
 
-    override fun searchContactTotalCount(filterBy:List<FilterFieldCriteria>) :Int {
+    override fun searchContactTotalCount(searchDto: SearchDto) :Int {
         try{
-       return  buildQuerySearchContacts(filterBy, emptyList()).resultList.size
+       return  buildQuerySearchContacts(searchDto.filterBy, searchDto.sortBy).resultList.size
         }catch (ex:Exception){
             throw ContactsDefaultException(ex)
         }finally {
@@ -51,7 +51,7 @@ open class ContactRepositoryImpl:ContactRepository,BasicRepositoryImpl() {
     }
 
     private fun buildQuerySearchContacts(filterBy:List<FilterFieldCriteria>,sortBy:List<SortField>): TypedQuery<Contact> {
-    val strQuery=StringBuilder("select C from Contact C left join  Location L where L.contact.id=C.id  ")
+    val strQuery=StringBuilder("select distinct C from Contact C left join  Location L where L.contact.id=C.id  ")
        // filterBy
         filterBy.forEach {
            var column= "C.${it.field}"
@@ -69,6 +69,8 @@ open class ContactRepositoryImpl:ContactRepository,BasicRepositoryImpl() {
         // sortBy
         if (!sortBy.isNullOrEmpty()) {
             strQuery.append(" ORDER BY ")
+        }else{
+            strQuery.append(" ORDER BY C.id DESC ")
         }
         var sortIndex = 0
         sortBy.forEach {

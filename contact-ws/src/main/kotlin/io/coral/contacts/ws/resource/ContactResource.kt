@@ -21,8 +21,8 @@ class ContactResource {
     fun getContact(searchDto:SearchDto): Response {
         val contactRepo: ContactRepository=ContactRepositoryImpl()
         val contactsResult = contactRepo.searchContacts(searchDto)
-//        val totalCount = contactRepo.searchContactTotalCount(searchDto.filterBy)
-        val response = ContactResponse<MutableList<ContactDTO>>().withData(contactsResult).withTotalCount(0)
+        val totalCount = contactRepo.searchContactTotalCount(searchDto)
+        val response = ContactResponse<MutableList<ContactDTO>>().withData(contactsResult).withTotalCount(totalCount)
         return Response.status(HttpStatus.SC_OK).entity(response).build()
     }
 

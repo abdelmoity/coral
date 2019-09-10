@@ -12,5 +12,5 @@ interface ContactRepository:BasicRepository {
 
      fun searchContacts(searchDto: SearchDto):MutableList<ContactDTO>
 
-     fun searchContactTotalCount(filterBy:List<FilterFieldCriteria>) :Int
+     fun searchContactTotalCount(searchDto: SearchDto) :Int
 }
