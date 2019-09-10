@@ -7,18 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f028877-9a39-4320-93cf-8b3a7732f167" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/LookUpResource.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/contact-ws-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/contact-ws-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/io.coral.customers-coral-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/io.coral.customers-coral-model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/enums/StateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/enums/StateEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/test/LocationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Address.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/enums/StateEnum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/enums/StateEnum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,96 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.19">
-    <configuration name="coral [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="coral [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="coral:coral-model [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/coral-model" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="coral:coral-model [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/coral-model" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="io.coral.contacts.model.test.LocationTest" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="coral-customers.coral-model.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="io.coral.contacts.model.test.LocationTest" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.tomcat9.0.19">
     <configuration name="TomEE jersy" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE jersy" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -428,7 +332,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="tomcat9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Gradle : io.coral.customers : contact-ws-1.0-SNAPSHOT.war">
@@ -438,7 +342,8 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_coral-customers" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_coral_2" />
+        <option name="HTTP_PORT" value="8384" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -446,7 +351,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="37961" />
+        <option name="DEBUG_PORT" value="44553" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -501,23 +406,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.coral [clean]" />
-      <item itemvalue="Gradle.coral [build]" />
-      <item itemvalue="Gradle.coral:coral-model [clean]" />
-      <item itemvalue="Gradle.coral:coral-model [build]" />
-      <item itemvalue="Kotlin.io.coral.contacts.model.test.LocationTest" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.19" />
+      <item itemvalue="Tomcat Server.tomcat9.0.19" />
       <item itemvalue="TomEE Server.TomEE jersy" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.coral:coral-model [build]" />
-        <item itemvalue="Gradle.coral:coral-model [clean]" />
-        <item itemvalue="Gradle.coral [build]" />
-        <item itemvalue="Kotlin.io.coral.contacts.model.test.LocationTest" />
-        <item itemvalue="Gradle.coral [clean]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -565,7 +456,7 @@
       <workItem from="1568023582047" duration="40661000" />
       <workItem from="1568084020915" duration="1123000" />
       <workItem from="1568085672752" duration="5744000" />
-      <workItem from="1568116859757" duration="1357000" />
+      <workItem from="1568116859757" duration="6259000" />
     </task>
     <servers />
   </component>
@@ -705,11 +596,6 @@
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
           <line>89</line>
           <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt</url>
-          <line>87</line>
-          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
