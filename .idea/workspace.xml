@@ -7,17 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f028877-9a39-4320-93cf-8b3a7732f167" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/LookUpResource.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/contact-ws-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/contact-ws-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/classes/io/coral/contacts/ws/resource/ContactResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/classes/io/coral/contacts/ws/resource/ContactResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/io.coral.customers-coral-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/io.coral.customers-coral-model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/out/production/classes/io/coral/contacts/ws/resource/ContactResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/out/production/classes/io/coral/contacts/ws/resource/ContactResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/ContactResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/ContactResource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/ContactRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/ContactRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/ContactRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/ContactRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/enums/StateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/enums/StateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/test/LocationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Address.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/enums/StateEnum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/enums/StateEnum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,8 +119,8 @@
         <option value="Kotlin Interface" />
         <option value="Class" />
         <option value="HTML File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -564,6 +565,7 @@
       <workItem from="1568023582047" duration="40661000" />
       <workItem from="1568084020915" duration="1123000" />
       <workItem from="1568085672752" duration="5744000" />
+      <workItem from="1568116859757" duration="1357000" />
     </task>
     <servers />
   </component>

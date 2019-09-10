@@ -30,9 +30,9 @@ open class Address {
     /**
      * the address's state
      */
-    @Enumerated(EnumType.STRING)
+    //@Enumerated(EnumType.STRING)
     @Column(name = "STATE" , nullable = false)
-    var state: StateEnum? = null
+    var state: String? = null
 
     override fun equals(other: Any?): Boolean {
         if(other == null || other !is Address)
