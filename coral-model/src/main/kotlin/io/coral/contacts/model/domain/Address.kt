@@ -34,4 +34,11 @@ open class Address {
     @Column(name = "STATE" , nullable = false)
     var state: StateEnum? = null
 
+    override fun equals(other: Any?): Boolean {
+        if(other == null || other !is Address)
+            return false
+            return street == other.street && zipCode==other.zipCode
+                && city == other.city && state==other.state
+    }
+
 }

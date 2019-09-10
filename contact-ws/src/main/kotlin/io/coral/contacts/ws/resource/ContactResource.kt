@@ -6,6 +6,7 @@ import io.coral.contacts.model.repository.ContactRepository
 import io.coral.contacts.model.repository.OrganizationRepository
 import io.coral.contacts.model.repository.impl.ContactRepositoryImpl
 import io.coral.contacts.model.repository.impl.OrganizationRepositoryImpl
+import io.coral.contacts.model.search.SearchDto
 import io.coral.contacts.ws.model.common.response.ContactResponse
 import org.apache.commons.httpclient.HttpStatus
 import javax.ws.rs.*
@@ -14,13 +15,14 @@ import javax.ws.rs.core.Response
 
 @Path("/contacts")
 class ContactResource {
-    @GET
+    @POST
+    @Path("/index")
     @Produces(MediaType.APPLICATION_JSON)
-    fun getContact(): Response {
+    fun getContact(searchDto:SearchDto): Response {
         val contactRepo: ContactRepository=ContactRepositoryImpl()
-        val contactsResult = contactRepo.searchContacts(mutableListOf(), mutableListOf(),0,25)
-        val totalCount = contactRepo.searchContactTotalCount(mutableListOf())
-        val response = ContactResponse<MutableList<ContactDTO>>().withData(contactsResult).withTotalCount(totalCount)
+        val contactsResult = contactRepo.searchContacts(searchDto)
+//        val totalCount = contactRepo.searchContactTotalCount(searchDto.filterBy)
+        val response = ContactResponse<MutableList<ContactDTO>>().withData(contactsResult).withTotalCount(0)
         return Response.status(HttpStatus.SC_OK).entity(response).build()
     }
 

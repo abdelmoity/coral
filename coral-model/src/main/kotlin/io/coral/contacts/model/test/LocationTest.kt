@@ -28,7 +28,7 @@ object LocationTest {
            //testData()
            //getById()
            //testUpdate()
-           testSearch()
+           //testSearch()
        }catch (ex:Exception){
            ex.printStackTrace()
        }
@@ -167,35 +167,35 @@ object LocationTest {
 //        println(result2)
     }
 
-    fun testSearch(){
-        val filterBy:MutableList<FilterFieldCriteria> = mutableListOf()
-        val fieldCriteria=FilterFieldCriteria()
-        fieldCriteria.field="name"
-        fieldCriteria.operator=OperationTypeEnum.Contains
-        fieldCriteria.value="org"
-        filterBy.add(fieldCriteria)
-        val fieldCriteria2=FilterFieldCriteria()
-        fieldCriteria2.field="email"
-        fieldCriteria2.operator=OperationTypeEnum.EQUAL
-        fieldCriteria2.value="asayed@tech4Health.io"
-        filterBy.add(fieldCriteria2)
-
-
-        val sortBy:MutableList<SortField> = mutableListOf()
-        val sortField=SortField()
-        sortField.field="name"
-        sortField.order = SortOrder.DESC
-        sortBy.add(sortField)
-        val sortField2=SortField()
-        sortField2.field="email"
-        sortField.order = SortOrder.ASC
-        sortBy.add(sortField2)
-
-        val contactRepo:ContactRepository=ContactRepositoryImpl()
-        val totalCount= contactRepo.searchContactTotalCount(filterBy)
-        println(totalCount)
-        val resultSearch= contactRepo.searchContacts(filterBy,sortBy,0,25)
-        println(resultSearch)
-
-    }
+//    fun testSearch(){
+//        val filterBy:MutableList<FilterFieldCriteria> = mutableListOf()
+//        val fieldCriteria=FilterFieldCriteria()
+//        fieldCriteria.field="name"
+//        fieldCriteria.operator=OperationTypeEnum.Contains
+//        fieldCriteria.value="org"
+//        filterBy.add(fieldCriteria)
+//        val fieldCriteria2=FilterFieldCriteria()
+//        fieldCriteria2.field="email"
+//        fieldCriteria2.operator=OperationTypeEnum.EQUAL
+//        fieldCriteria2.value="asayed@tech4Health.io"
+//        filterBy.add(fieldCriteria2)
+//
+//
+//        val sortBy:MutableList<SortField> = mutableListOf()
+//        val sortField=SortField()
+//        sortField.field="name"
+//        sortField.order = SortOrder.DESC
+//        sortBy.add(sortField)
+//        val sortField2=SortField()
+//        sortField2.field="email"
+//        sortField.order = SortOrder.ASC
+//        sortBy.add(sortField2)
+//
+//        val contactRepo:ContactRepository=ContactRepositoryImpl()
+//        val totalCount= contactRepo.searchContactTotalCount(filterBy)
+//        println(totalCount)
+//        val resultSearch= contactRepo.searchContacts(filterBy,sortBy,0,25)
+//        println(resultSearch)
+//
+//    }
 }

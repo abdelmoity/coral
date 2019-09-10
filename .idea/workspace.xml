@@ -7,75 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f028877-9a39-4320-93cf-8b3a7732f167" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/coral.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact-ws/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/mapper/ContactModelMapper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/search/SearchDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/search/SearchFieldEnum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/coral-customers-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/coral-customers-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/classes/kotlin/main/io/coral/contacts/ws/resource/ContactResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/classes/kotlin/main/io/coral/contacts/ws/resource/ContactResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/dirty-sources.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/contact-ws-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/contact-ws-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/classes/io/coral/contacts/ws/config/DefaultConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/classes/io/coral/contacts/ws/config/DefaultConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/classes/io/coral/contacts/ws/config/PublicConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/classes/io/coral/contacts/ws/config/PublicConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/classes/io/coral/contacts/ws/resource/ContactResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/classes/io/coral/contacts/ws/resource/ContactResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/annotations-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/commons-lang3-3.2.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/io.coral.customers-coral-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/io.coral.customers-coral-model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-dataformat-xml-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-dataformat-yaml-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-datatype-joda-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-jaxrs-base-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-jaxrs-json-provider-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/joda-time-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/reflections-0.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/stax2-api-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/swagger-annotations-1.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/swagger-core-1.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/swagger-jaxrs-1.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/swagger-jersey2-jaxrs-1.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/swagger-models-1.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/t4h-ts-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/t4h-ts-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/out/production/classes/io/coral/contacts/ws/config/DefaultConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/out/production/classes/io/coral/contacts/ws/config/DefaultConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/out/production/classes/io/coral/contacts/ws/config/PublicConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/out/production/classes/io/coral/contacts/ws/config/PublicConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/out/production/classes/io/coral/contacts/ws/resource/ContactResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/out/production/classes/io/coral/contacts/ws/resource/ContactResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/config/DefaultConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/config/DefaultConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/config/PublicConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/config/PublicConfig.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/ContactResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/ContactResource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-ws/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/controller/LocationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/AbstractBasicDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/AbstractEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/Address.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/EntityListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/HealthcareProviderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/HealthcareProviderInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/Individual.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/Individual.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/ParticipantInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/ParticipantInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/TPAInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/domain/TPAInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/dto/ContactDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/dto/ContactDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/enums/StateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/enums/StateEnum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/ContactRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/ContactRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/OrganizationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/OrganizationRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/search/FilterFieldCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/search/FilterFieldCriteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/test/LocationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/classes/kotlin/main/io/coral/contacts/model/test/LocationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
@@ -97,13 +64,6 @@
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
@@ -118,8 +78,6 @@
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
@@ -150,60 +108,17 @@
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/kotlin/coralmodel10SNAPSHOTjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/kotlin/coralmodel10SNAPSHOTjar-classes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/build/libs/coral-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/libs/coral-model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/controller/IndividualController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/controller/LocationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/controller/TpaInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/AbstractBasicDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/AbstractEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/EntityListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/HealthcareProviderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/HealthcareProviderInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Address.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/ParticipantInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/ParticipantInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/TPAInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/TPAInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/AddressDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/ContactDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/ContactDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/HealthCareProviderInfoDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/IndividualDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/LocationDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/OrganizationDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/ParticipantInfoDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/TPAInfoDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/dto/TpaInfoDto.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/ContactRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/ContactRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/OrganizationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/OrganizationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/test/LocationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/test/LocationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/controller/IndividualController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/controller/LocationController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/controller/TpaInfoController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/AbstractBasicDefinition.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/AbstractEntity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Contact.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Contact.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/EntityListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/HealthcareProviderInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/HealthcareProviderInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Address.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Location.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/Location.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/ParticipantInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/ParticipantInfo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/TPAInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/TPAInfo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/AddressDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/ContactDTO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/ContactDTO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/HealthCareProviderInfoDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/IndividualDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/LocationDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/OrganizationDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/ParticipantInfoDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/TPAInfoDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/dto/TpaInfoDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/BasicRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/ContactRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/ContactRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/OrganizationRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/OrganizationRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/test/LocationTest.kt" afterDir="false" />
@@ -277,11 +192,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="coral-customers" type="f1a62948:ProjectNode" />
+                <item name="coral-model" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="coral-customers" type="f1a62948:ProjectNode" />
+                <item name="coral-model" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="coral-customers" type="f1a62948:ProjectNode" />
+                <item name="coral-model" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -299,9 +221,9 @@
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
         <option value="Class" />
-        <option value="Kotlin Enum" />
         <option value="HTML File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
@@ -397,6 +319,44 @@
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="coral:coral-model [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/coral-model" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="coral:coral-model [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/coral-model" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -642,12 +602,16 @@
     <list>
       <item itemvalue="Gradle.coral [clean]" />
       <item itemvalue="Gradle.coral [build]" />
+      <item itemvalue="Gradle.coral:coral-model [clean]" />
+      <item itemvalue="Gradle.coral:coral-model [build]" />
       <item itemvalue="Kotlin.io.coral.contacts.model.test.LocationTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.19" />
       <item itemvalue="TomEE Server.TomEE jersy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.coral:coral-model [build]" />
+        <item itemvalue="Gradle.coral:coral-model [clean]" />
         <item itemvalue="Gradle.coral [build]" />
         <item itemvalue="Kotlin.io.coral.contacts.model.test.LocationTest" />
         <item itemvalue="Gradle.coral [clean]" />
@@ -697,7 +661,9 @@
       <workItem from="1567598308809" duration="14363000" />
       <workItem from="1567632409402" duration="75429000" />
       <workItem from="1568019601795" duration="3958000" />
-      <workItem from="1568023582047" duration="22197000" />
+      <workItem from="1568023582047" duration="40661000" />
+      <workItem from="1568084020915" duration="1123000" />
+      <workItem from="1568085672752" duration="546000" />
     </task>
     <servers />
   </component>
@@ -757,7 +723,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>54</line>
+          <line>75</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -787,12 +753,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>45</line>
+          <line>66</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>49</line>
+          <line>70</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -804,6 +770,71 @@
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.kt</url>
           <line>25</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
+          <line>32</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
+          <line>85</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
+          <line>89</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/ContactResource.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt</url>
+          <line>85</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt</url>
+          <line>55</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt</url>
+          <line>56</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/contact-ws/src/main/kotlin/io/coral/contacts/ws/resource/ContactResource.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

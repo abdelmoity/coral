@@ -45,7 +45,12 @@ open class Location : AbstractBasicDefinition() {
     @JsonIgnore
     var contact: Contact? = null
 
-
-
-
+    override fun equals(other: Any?): Boolean {
+        if (other == null || other !is Location)
+            return false
+        return taxId == other.taxId && phone1 == other.phone1
+                && phone2 == other.phone2 && fax == other.fax
+                && phone2 == other.phone2 && fax == other.fax
+                && address == other.address && name == other.name
+    }
 }
