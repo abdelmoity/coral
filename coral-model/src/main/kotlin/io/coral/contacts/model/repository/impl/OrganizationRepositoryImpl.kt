@@ -61,7 +61,10 @@ class OrganizationRepositoryImpl : OrganizationRepository, ContactRepositoryImpl
         try {
             em = entityManager
             return em.find(Organization::class.java, id) ?:throw ObjectNotFoundException()
-        } catch (ex: Exception) {
+        }catch(e:ObjectNotFoundException){
+            throw e
+        }
+        catch (ex: Exception) {
             throw ContactsDefaultException(ex)
         } finally {
             em!!.close()
@@ -100,6 +103,8 @@ class OrganizationRepositoryImpl : OrganizationRepository, ContactRepositoryImpl
             }
             em.transaction.commit()
             return em.find(Organization::class.java, organization.id)
+        }catch(e:ObjectNotFoundException){
+            throw e
         } catch (ex: Exception) {
             throw ContactsDefaultException(ex)
         } finally {

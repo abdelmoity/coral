@@ -59,8 +59,8 @@ open class ContactRepositoryImpl:ContactRepository,BasicRepositoryImpl() {
                 column= SearchFieldEnum.valueOf(it.field!!).entityField
             }
             val value=it.value
-            val operator=it.operator
-            if (operator!!.equals(OperationTypeEnum.Contains)){
+            val operator=it.operator.toString()
+            if (operator.equals("contains",true)){
                 strQuery.append(" AND $column like '%$value%' ")
             }else{
                 strQuery.append(" AND $column = '$value' ")

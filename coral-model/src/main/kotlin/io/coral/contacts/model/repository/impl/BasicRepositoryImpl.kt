@@ -51,6 +51,8 @@ open class BasicRepositoryImpl : BasicRepository {
             em.remove(toBeRemoved)
             em.transaction.commit()
             return true
+        }catch(e:ObjectNotFoundException){
+            throw e
         } catch (ex: Exception) {
             throw ex
         } finally {

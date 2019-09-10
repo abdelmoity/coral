@@ -7,18 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f028877-9a39-4320-93cf-8b3a7732f167" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/exception/ContactConflictException.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/contact-ws-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/contact-ws-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/io.coral.customers-coral-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contact-ws/build/libs/exploded/contact-ws-1.0-SNAPSHOT.war/WEB-INF/lib/io.coral.customers-coral-model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/HealthcareProviderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/domain/HealthcareProviderInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/exception/ContactsExceptionConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/exception/ContactsExceptionConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl$update$allLocationsDtoId$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/HealthcareProviderInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/domain/HealthcareProviderInfo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/exception/ContactsExceptionConstants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/exception/ContactsExceptionConstants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/search/OperationTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/search/OperationTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/search/SearchFieldEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/out/production/classes/io/coral/contacts/model/search/SearchFieldEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/ContactRepositoryImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/search/OperationTypeEnum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/search/OperationTypeEnum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/search/SearchFieldEnum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/search/SearchFieldEnum.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -463,7 +466,7 @@
       <workItem from="1568023582047" duration="40661000" />
       <workItem from="1568084020915" duration="1123000" />
       <workItem from="1568085672752" duration="5744000" />
-      <workItem from="1568116859757" duration="9160000" />
+      <workItem from="1568116859757" duration="12090000" />
     </task>
     <servers />
   </component>
@@ -496,7 +499,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/BasicRepositoryImpl.kt</url>
-          <line>71</line>
+          <line>73</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -526,7 +529,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>86</line>
+          <line>89</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -556,12 +559,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>77</line>
+          <line>80</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>81</line>
+          <line>84</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -576,32 +579,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>41</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>34</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>36</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>37</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>96</line>
+          <line>99</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/coral-model/src/main/kotlin/io/coral/contacts/model/repository/impl/OrganizationRepositoryImpl.kt</url>
-          <line>100</line>
+          <line>103</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>

@@ -2,11 +2,12 @@ package io.coral.contacts.model.search
 
 enum class SearchFieldEnum(var entityField:String) {
     taxId("C.defaultTaxId"),
-    street("L.locations.address.street"),
-    zipCode("L.locations.address.zipCode"),
-    city("L.locations.address.city"),
-    phone1("L.locations.phone1"),
-    phone2("L.locations.phone2"),
+    street("L.address.street"),
+    zipCode("L.address.zipCode"),
+    city("L.address.city"),
+    phone1("L.phone1"),
+    phone2("L.phone2"),
+    fax("L.fax"),
     provider("C.provider"),
     tpa("C.TPA"),
     coralProviderId("C.providerInfo.id"),
