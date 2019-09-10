@@ -7,6 +7,9 @@ import javax.persistence.*
 
 @Entity
 @Table(name = "HEALTHCARE_PROVIDER_INFO")
+@NamedQueries(
+    NamedQuery(name = "HealthcareProviderInfo.getByNpi", query = "SELECT count(H) FROM HealthcareProviderInfo H where H.npi=:npi")
+)
 open class HealthcareProviderInfo : AbstractEntity() {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

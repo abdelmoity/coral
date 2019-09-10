@@ -16,6 +16,9 @@ constructor(private val exception: T4HExceptionCode) {
     ),
     MODEL_MAPPING_ERROR(
         T4HExceptionCode(3004, "Failed to map models")
+    ),
+    CONFLICT_EXCEPTION(
+        T4HExceptionCode(3005, "value conflict exception")
     );
 
     val code: Int
