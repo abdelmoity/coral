@@ -30,10 +30,10 @@ class DefaultConfig() : ResourceConfig() {
             NotFoundExceptionMapper::class.java,
             T4HError::class.java,
             T4HBaseException::class.java
-            //,EjbExceptionMapper::class.java
         )
-//        register(ApiListingResource::class.java)
-//        register(SwaggerSerializers::class.java)
+        // register(ApiListingResource::class.java)
+       // register(SwaggerSerializers::class.java)
+        register(CORSFilter::class.java)
         val injector = Guice.createInjector(GuiceModule())
         initGuiceIntoHK2Bridge(serviceLocator, injector)
     }
